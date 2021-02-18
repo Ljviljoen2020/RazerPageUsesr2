@@ -10,7 +10,7 @@ using RazerPageUsers2.Data;
 namespace RazerPageUsers2.Migrations
 {
     [DbContext(typeof(RazerPageUsers2Context))]
-    [Migration("20210216074807_InitialCreate")]
+    [Migration("20210218145501_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -32,13 +32,17 @@ namespace RazerPageUsers2.Migrations
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Fullname")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.Property<string>("IdentificationNuber")
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
 
                     b.Property<string>("Surname")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
 
                     b.HasKey("ID");
 

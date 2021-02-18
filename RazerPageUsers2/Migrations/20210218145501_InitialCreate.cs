@@ -13,10 +13,10 @@ namespace RazerPageUsers2.Migrations
                 {
                     ID = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Surname = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Fullname = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Surname = table.Column<string>(type: "nvarchar(60)", maxLength: 60, nullable: false),
+                    Fullname = table.Column<string>(type: "nvarchar(60)", maxLength: 60, nullable: true),
                     DateofBirth = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    IdentificationNuber = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    IdentificationNuber = table.Column<string>(type: "nvarchar(13)", maxLength: 13, nullable: true)
                 },
                 constraints: table =>
                 {
