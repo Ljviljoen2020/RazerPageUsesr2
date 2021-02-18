@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Doom\\Documents\\RazerPageUsers2\\RazerPageUsers2\\RazerPageUsers2.csproj": {}
+    "C:\\Users\\Doom\\Documents\\RazerPageUsesr2\\RazerPageUsers2\\RazerPageUsers2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Doom\\Documents\\RazerPageUsers2\\RazerPageUsers2\\RazerPageUsers2.csproj": {
+    "C:\\Users\\Doom\\Documents\\RazerPageUsesr2\\RazerPageUsers2\\RazerPageUsers2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Doom\\Documents\\RazerPageUsers2\\RazerPageUsers2\\RazerPageUsers2.csproj",
+        "projectUniqueName": "C:\\Users\\Doom\\Documents\\RazerPageUsesr2\\RazerPageUsers2\\RazerPageUsers2.csproj",
         "projectName": "RazerPageUsers2",
-        "projectPath": "C:\\Users\\Doom\\Documents\\RazerPageUsers2\\RazerPageUsers2\\RazerPageUsers2.csproj",
+        "projectPath": "C:\\Users\\Doom\\Documents\\RazerPageUsesr2\\RazerPageUsers2\\RazerPageUsers2.csproj",
         "packagesPath": "C:\\Users\\Doom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Doom\\Documents\\RazerPageUsers2\\RazerPageUsers2\\obj\\",
+        "outputPath": "C:\\Users\\Doom\\Documents\\RazerPageUsesr2\\RazerPageUsers2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
